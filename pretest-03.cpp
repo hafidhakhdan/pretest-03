@@ -26,7 +26,7 @@ void banyakData (int& n){
 void inputMhs (larikMhs& mhs, int n){
 	for (int i = 0; i<n; i++){
 		cout<<"NPM : "; cin>>mhs[i].npm;
-		cout<<"Nama : "; cin.ignore(); cin>>mhs[i].nama;
+		cout<<"Nama : "; cin>>mhs[i].nama;
 		cout<<"IPK : "; cin>>mhs[i].ipk;
 	}
 }
@@ -45,6 +45,6 @@ int main (){
 	int n;
 	
 	banyakData (n);
-	inputMhs (larikMhs,n);
-	cetakMhs (larikMhs,n);
+	inputMhs (larikMhs , n);
+	cetakMhs (larikMhs , n);
 }
